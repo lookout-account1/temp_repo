@@ -1,0 +1,522 @@
+[[16,[[[["1",[null,null,["1636458008178512"]]],["2",[null,null,["1636458008178512"]]]]]]]]90
+[[17,[[[["1",[null,null,["1636458028368500"]]],["2",[null,null,["1636458028368500"]]]]]]]]
+]
+2021-11-09 11:40:31,035 DEBUG [TxId34044   proxy-cac-processor-worker-6 - Z3N1aXRlOnByb3h5-12] c.n.p.f.ResponseBodyCompleteHandler : Response sent to client.
+2021-11-09 11:40:31,035 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.metrics.TransactionRecord       : Duration in ms 55632
+2021-11-09 11:40:31,035 DEBUG [TxId34044   proxy-cac-processor-worker-6 - Z3N1aXRlOnByb3h5-12] c.n.p.f.ResponseBodyCompleteHandler : SDP Packet Tracker: /punctual/multi-watch/channel Client<-Gateway
+2021-11-09 11:40:31,035 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.metrics.TransactionRecord       : 200,2021-11-09 11:39:35.402396,55633,4,0,0,55627,55611,0,-10520,https://signaler--pa-clients6-google-com-q2devil.qa2blue.flexilis.com/punctual/multi-watch/channel?gsessionid=Lf_pxbk9mlxcOp0q4WWFUd_s5Vme7oAyjq9P8ouCOX0&key=AIzaSyCIMH2ks6VPAfRC2lqU_Snz1Lo76XGdnlc&VER=8&RID=rpc&SID=cEy5zc03gnIl0fcgHJhrhQ&CI=0&AID=0&TYPE=xmlhttp&zx=5j5xr3fu868y&t=4&C1f3C_isXhrReq=true&C1f3C_ccpContextId2_=ff3d48f9a9d94c0691a1e7021b570341&C1f3C_reqMode=XHR_OPEN,https://mail-google-com-q2devil.qa2blue.flexilis.com/
+2021-11-09 11:40:31,035 TRACE [TxId34044   proxy-cac-processor-worker-6 - Z3N1aXRlOnByb3h5-12] c.c.c.n.p.flow.ProxyProcessor       : proxyprocessor process done. 1 ms
+2021-11-09 11:40:31,035 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.metrics.TransactionRecord       : Duration in ms 55632
+2021-11-09 11:40:31,035 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.metrics.TransactionRecord       : 200,2021-11-09 11:39:35.402396,55633,4,0,0,55627,55611,0,-10520,https://signaler--pa-clients6-google-com-q2devil.qa2blue.flexilis.com/punctual/multi-watch/channel?gsessionid=Lf_pxbk9mlxcOp0q4WWFUd_s5Vme7oAyjq9P8ouCOX0&key=AIzaSyCIMH2ks6VPAfRC2lqU_Snz1Lo76XGdnlc&VER=8&RID=rpc&SID=cEy5zc03gnIl0fcgHJhrhQ&CI=0&AID=0&TYPE=xmlhttp&zx=5j5xr3fu868y&t=4&C1f3C_isXhrReq=true&C1f3C_ccpContextId2_=ff3d48f9a9d94c0691a1e7021b570341&C1f3C_reqMode=XHR_OPEN,https://mail-google-com-q2devil.qa2blue.flexilis.com/
+2021-11-09 11:40:33,621 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.p.p.HttpProxyRequestHandler : Ignoring keepalive timeout because transaction is in flight
+2021-11-09 11:40:33,629 TRACE [TxId               pool-6-thread-12 - ] c.n.p.f.ContentRangeUploadProcessor : Content Range Forward Request Task invoked
+2021-11-09 11:40:37,635 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.PortUnificationHandler  : Server Name could not be determined from SSL ClientHello. Using Server Name: qa2blue.flexilis.com default Server Name to load certificates
+2021-11-09 11:40:37,636 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.HttpProxyRequestHandler : client request:
+
+2021-11-09 11:40:37,636 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.HttpProxyRequestHandler : HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET / HTTP/1.1
+Host: my-syncplicity-com-q2devil.qa2blue.flexilis.com
+X-Real-IP: 157.48.92.231
+X-Forwarded-For: 172.17.0.1
+X-Forwarded-Proto: https
+Connection: close
+sec-ch-ua: "Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+x-performance-user: JayaPratap
+content-length: 0
+2021-11-09 11:40:37,636 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.csg.ns.proxy.flow.WebContext    : client private ip - 127.0.0.1
+2021-11-09 11:40:37,636 DEBUG [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.a.ProxyUserAuthenticator  : No Proxy Auth Session - my-syncplicity-com-q2devil.qa2blue.flexilis.com / null 
+2021-11-09 11:40:37,636 DEBUG [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.a.ProxyUserAuthenticator  : Matched cached unauthenticated URL: GET: https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/
+2021-11-09 11:40:37,636 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] r.UserSessionBinderManagerRedisImpl : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinderManagerRedisImpl.containsIPAddress()
+2021-11-09 11:40:37,636 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.a.cache.PersistentCache     : PersistentCache.containsKey(172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36) is invoked for map NS_CONTEXT_q2devilIP_LOOKUP_J1
+2021-11-09 11:40:37,637 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36') is invoked for map NS_CONTEXT_q2devilIP_LOOKUP_J1
+2021-11-09 11:40:37,637 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,637 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.a.cache.PersistentCache     : Cache NS_CONTEXT_q2devilIP_LOOKUP_J1 contains key '172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+2021-11-09 11:40:37,637 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.a.ProxyUserAuthenticator  : Proxying Uncredentialed CORS request: GET: https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/
+2021-11-09 11:40:37,637 TRACE [TxId34168       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.csg.ns.proxy.flow.WebContext    : client private ip - 127.0.0.1
+2021-11-09 11:40:37,638 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.c.n.p.f.RequestReceivedHandler  : Request received: Client->Gateway.  URL Path=/
+2021-11-09 11:40:37,638 TRACE [TxId34172       proxy-processor-worker-0 - ] .c.n.p.p.a.AdmissionsControlManager : IP restrictions (Admissions Control) is NOT enabled
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.n.p.p.d.h.BrowserContextManager : ctxLookup Read Cookie - null my-syncplicity-com-q2devil.qa2blue.flexilis.com / null 
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.n.p.p.d.h.BrowserContextManager : ctxLookupNewCtx NoPU - 7b1c6e0e-7c64-4f7c-a6ea-3419d42f2f7a my-syncplicity-com-q2devil.qa2blue.flexilis.com / null 
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.c.n.p.i.ReverseProxyRewriters   : Rewriting proxy URI https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/ to Origin URI https://my.syncplicity.com/ using rules for proxy domain qa2blue.flexilis.com
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.n.p.p.r.RequestHeadersRpProcessor : About to create/initialize origin request.
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.n.p.p.r.RequestHeadersRpProcessor : Origin Request created, initialized and headers copied
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : Invoked ConnectorsConf.getCloudName()
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : cloudId derived 9f91d9f0-5b85-45a4-bc6f-23081074abfe for session binding.
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : App ID Cookie is empty or not received for host my.syncplicity.com path /.  Will go through full App Resolver flow.
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.c.n.a.r.AppSessionBinderManager : Invoked heuristicLookup4BinderInfo('9f91d9f0-5b85-45a4-bc6f-23081074abfe',[])
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : Invoked ConnectorsConf.resolveWithCustomBinders()
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : Checking Token based app resolution for connector custom
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : Token based app resolution unsuccessful host my.syncplicity.com uri /
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : Regular app resolution (SPeL execution) flow initiated for host my.syncplicity.com uri path /.
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorsConf       : 
+
+________________________________________ |START : APP RESOLVERS| _________________________________________
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorConf        : Env disable.singleApp.perSession=false
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorConf        : Env disable.singleApp.perSession=false
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorConf        : isSingletonAppResolutionFeatureEnabled=true isMultipleAppsPerSessionSupported=true
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorConf        : Request URL:https://my.syncplicity.com/ and the pretty URL:no pretty URLs configured
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorConf        : Request URL:https://my.syncplicity.com/ and the pretty URL:no pretty URLs configured
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorConf        : Request URL:https://my.syncplicity.com/ and the pretty URL:no pretty URLs configured
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - ] c.c.csg.ns.app.ConnectorConf        : App resolved to 192 for host my.syncplicity.com uri /
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.csg.ns.app.ConnectorsConf       : App ID is 192 for domain my.syncplicity.com uri /
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.n.p.p.r.RequestHeadersRpProcessor : Request side APP Info ~ id=192 domain=my.syncplicity.com path=/ isFromSessionBinding=false setResolvedBySingletonSession=false AppType=custom CAC
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : Invoked com.ciphercloud.csg.ns.proxy.flow.UserSessionContextHandler.resolveSessionContext()
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : retrieved ccpContextId2 null from Query Parameter
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : Initial info cacheKey=null appId=192 cloudName=custom path=/ integrityInfo=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : Invoked com.ciphercloud.csg.ns.proxy.flow.UserSessionContextHandler.createNewCacheKey()
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinderManagerRedisImpl.getCacheKeyForIPAddress()
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36') is invoked for map NS_CONTEXT_q2devilIP_LOOKUP_J1
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36') is invoked for map NS_CONTEXT_q2devilIP_LOOKUP_J1
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Client IP address 172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 lookup returned cacheKey 2e407457b3c540938c6df72311d79ba5
+2021-11-09 11:40:37,639 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : CacheKey from IPAddress lookup is 2e407457b3c540938c6df72311d79ba5 path=/
+2021-11-09 11:40:37,639 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : Client Ip based Cache Key 2e407457b3c540938c6df72311d79ba5 found. Using it for this request domain=my.syncplicity.com path=/ clientIP=172.17.0.1 clientPrivateIP=127.0.0.1 userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36.
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : Final user session key=2e407457b3c540938c6df72311d79ba5
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : New cacheKey=2e407457b3c540938c6df72311d79ba5  path=/
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinderManagerRedisImpl.getUserSessionResolverKey()
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinderManagerRedisImpl.getUserSessionBinder()
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('2e407457b3c540938c6df72311d79ba5') is invoked for map NS_CONTEXT_q2devilCOOKIE_BINDERS_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('2e407457b3c540938c6df72311d79ba5') is invoked for map NS_CONTEXT_q2devilCOOKIE_BINDERS_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Reading cache with cacheKey=2e407457b3c540938c6df72311d79ba5 cloudName=custom, app id=192
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.r.UserSessionBinders      : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinders.getUserSessionBinder()
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('fc634ef8-a3b2-4a74-a865-904dd7af7f5ccustom192') is invoked for map NS_CONTEXT_q2devilSESSION_BINDER_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('fc634ef8-a3b2-4a74-a865-904dd7af7f5ccustom192') is invoked for map NS_CONTEXT_q2devilSESSION_BINDER_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.r.UserSessionBinders      : Found an entry in cache for cloudName=custom appid=192
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.r.UserSessionBinders      : Found active entry in cache for cloudName=custom appid=192
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put('fc634ef8-a3b2-4a74-a865-904dd7af7f5ccustom192',UserSessionBinder) is invoked for map NS_CONTEXT_q2devilSESSION_BINDER_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('fc634ef8-a3b2-4a74-a865-904dd7af7f5ccustom192') is invoked for map NS_CONTEXT_q2devilSESSION_BINDER_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : Pushed key & value to local cache & redis in async mode
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put() completed
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : getUserSessionResolverKey() with cacheKey=2e407457b3c540938c6df72311d79ba5 cloudName=custom, app id=192 integrityInfo=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : Invoked com.ciphercloud.csg.ns.proxy.flow.UserSessionContextHandler.setClientIpBinding()
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinderManagerRedisImpl.putCacheKeyForIpAddress()
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put('172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',SimpleRedisCacheable) is invoked for map NS_CONTEXT_q2devilIP_LOOKUP_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36') is invoked for map NS_CONTEXT_q2devilIP_LOOKUP_J1
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : Pushed key & value to local cache & redis in async mode
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put() completed
+2021-11-09 11:40:37,640 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Client IP address 172.17.0.1-127.0.0.1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 and CacheKey 2e407457b3c540938c6df72311d79ba5 lookup mapping is cached
+2021-11-09 11:40:37,640 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : User Session Context created with ref=405cb8701df446928abf7adbb840531b cookie-ref=2e407457b3c540938c6df72311d79ba5.
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true)
+2021-11-09 11:40:37,640 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo)
+2021-11-09 11:40:37,641 TRACE [TxId            redisson-netty-8-23 - ] c.c.c.n.a.cache.PersistentCache     : redisCache.fastPutAsync() is successful. result=false (true=added,false=updated)
+2021-11-09 11:40:37,640 TRACE [TxId            redisson-netty-8-19 - ] c.c.c.n.a.cache.PersistentCache     : redisCache.fastPutAsync() is successful. result=false (true=added,false=updated)
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo object from redis
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo
+2021-11-09 11:40:37,641 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.n.p.p.r.RequestHeadersRpProcessor : RequestSide User session resolved for app 192. Current user CookieRef=***** SessionKey=***** login=null userSessionInfo.hashCode=1748077343
+2021-11-09 11:40:37,641 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.n.p.p.r.RequestHeadersRpProcessor : setting appResolverExtractedValues {&#61;null, ccAppDomains&#61;my.syncplicity.com,syncplicity.com, subdomain&#61;my} in User session
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState,false)
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState,false,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState)
+2021-11-09 11:40:37,641 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState object from redis
+2021-11-09 11:40:37,642 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,642 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,642 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,642 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,642 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxy.auth.ProxyUserSessionState
+2021-11-09 11:40:37,642 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.f.RequestAcceptedHandler  : Request received: Client->Gateway.  URL Path=/
+2021-11-09 11:40:37,642 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.TransactionLogUtil  : REQUEST TRANSACTION :- file_download, Url:- https://my.syncplicity.com/, Content-Type : NA, Referrer : NA
+2021-11-09 11:40:37,642 DEBUG [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] .p.p.d.h.BrowserCloudContextManager : New BrowserCloudContext created with key 7b1c6e0e-7c64-4f7c-a6ea-3419d42f2f7a~9f91d9f0-5b85-45a4-bc6f-23081074abfe
+2021-11-09 11:40:37,642 TRACE [TxId34172       proxy-processor-worker-0 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.flow.ProxyProcessor       : proxyprocessor process done. 4 ms
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true)
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo)
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo object from redis
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,642 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo
+2021-11-09 11:40:37,642 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Multiple activities containing transaction file_download defined, and transaction didn't resolve activityId. 
+2021-11-09 11:40:37,642 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : The transaction will be treated as an ad-hoc activity
+2021-11-09 11:40:37,642 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Transaction did not resolve activity id. file_download. Setting it to ResolutionConflictActivityId_7766
+2021-11-09 11:40:37,642 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Possible match transaction request in file_download of activity ResolutionConflictActivityId_7766
+2021-11-09 11:40:37,642 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Possible match transaction request in file_download of activity ResolutionConflictActivityId_7766
+2021-11-09 11:40:37,642 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Possible match transaction request in file_download of activity ResolutionConflictActivityId_7766
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityInfo        : contentInfoList -> []
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityInfo        : contentInfoList -> []
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityInfo        : ciList -> []
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true)
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo)
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo object from redis
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : dataFlowType REQUEST : ActivityComplete false
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : --------- Activity Info START--------------https://my.syncplicity.com/
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Flow Type - REQUEST
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Transaxn  - file_download
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Session ID - 405cb8701df446928abf7adbb840531b
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : userSessionInfo hashCode = 1748077343
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : User Login hashCode = null
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Proxy User Login = null
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : ActivityInfo(ActivityId=ResolutionConflictActivityId_7766) { 
+ ActivityType=Download
+ , ActivitySubType=File Download
+ , activityFailed=false
+ , pep=false
+ , asserted=true
+ , []
+ }
+2021-11-09 11:40:37,643 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : --------- Activity Info END ---------------
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Not a download activity. No need to handle content-disposition
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.f.ResponseCacheManager    : Caching not enabled for application
+2021-11-09 11:40:37,643 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.AsyncHttpClientProvider : Origin request 
+https://my.syncplicity.com/	GET	headers:	x-performance-user:JayaPratap	Accept:text/html,application/xhtml+xml,application/xml;q&#61;0.9,image/avif,image/webp,image/apng,*/*;q&#61;0.8,application/signed-exchange;v&#61;b3;q&#61;0.9	X-Forwarded-Proto:https	User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36	Sec-Fetch-Site:none	Sec-Fetch-Dest:document	Host:my.syncplicity.com	Accept-Encoding:gzip, deflate	Sec-Fetch-Mode:navigate	Via:1.1 csg	sec-ch-ua:&#34;Google Chrome&#34;;v&#61;&#34;95&#34;, &#34;Chromium&#34;;v&#61;&#34;95&#34;, &#34;;Not A Brand&#34;;v&#61;&#34;99&#34;	sec-ch-ua-mobile:?0	Upgrade-Insecure-Requests:1	sec-ch-ua-platform:&#34;Windows&#34;	X-Forwarded-For:172.17.0.1,157.48.92.231	Sec-Fetch-User:?1	Accept-Language:en-US,en;q&#61;0.9	X-Real-IP:157.48.92.231	Connection:keep-alive	Content-Length:0
+2021-11-09 11:40:37,644 DEBUG [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] .c.n.p.f.RequestBodyCompleteHandler : Request sent to origin. url=my.syncplicity.com/
+2021-11-09 11:40:37,644 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.flow.ProxyProcessor       : proxyprocessor process done. 1 ms
+2021-11-09 11:40:37,645 TRACE [TxId34172   proxy-cac-processor-worker-4 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.flow.ProxyProcessor       : proxyprocessor process done. 3 ms
+2021-11-09 11:40:37,937 TRACE [TxId34044           AsyncHttpClient-26-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] .c.c.n.p.f.HttpResponseEventHandler : com.ciphercloud.csg.ns.proxy.flow.HttpResponseEventHandler@ff6a633 received response headers for https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/
+2021-11-09 11:40:37,937 TRACE [TxId34044           AsyncHttpClient-26-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] .c.c.n.p.f.HttpResponseEventHandler : com.ciphercloud.csg.ns.proxy.flow.HttpResponseEventHandler@ff6a633 received body part for https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] .p.p.d.ResponseAppResolverProcessor : Request received at com.ciphercloud.csg.ns.proxy.processors.data.ResponseAppResolverProcessor.generateProxyCookies() for host my.syncplicity.com path /
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.n.p.f.UserSessionContextHandler : Invoked com.ciphercloud.csg.ns.proxy.flow.UserSessionContextHandler.writeUserSessionContextCookie()
+2021-11-09 11:40:37,937 DEBUG [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.n.p.p.d.h.BrowserContextManager : Backup Context mapping pushed to cache 7b1c6e0e-7c64-4f7c-a6ea-3419d42f2f7a,4b3cfbf433af4f7d8750e08625f6156b
+2021-11-09 11:40:37,937 DEBUG [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.a.ProxyUserAuthenticator  : No proxy user session found for the WebProxyRequest
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinderManagerRedisImpl.isCookieWriteIntervalElapsed()
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('2e407457b3c540938c6df72311d79ba5') is invoked for map NS_CONTEXT_q2devilCOOKIE_BINDERS_J1
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('2e407457b3c540938c6df72311d79ba5') is invoked for map NS_CONTEXT_q2devilCOOKIE_BINDERS_J1
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,937 TRACE [TxId34044           AsyncHttpClient-26-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] .c.c.n.p.f.HttpResponseEventHandler : com.ciphercloud.csg.ns.proxy.flow.HttpResponseEventHandler@ff6a633 received complete response for https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,937 DEBUG [TxId34172           AsyncHttpClient-26-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] .c.c.n.p.f.HttpResponseEventHandler : cc origin response for url: https://my.syncplicity.com/
+
+2021-11-09 11:40:37,937 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Cookie Write Interval Elapsed = false
+2021-11-09 11:40:37,938 TRACE [TxId34172           AsyncHttpClient-26-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] .c.c.n.p.f.HttpResponseEventHandler : DefaultHttpResponse [
+HTTP/1.1 400 Bad Request
+content-length: 524
+Server: awselb/2.0
+Connection: close
+Date: Tue, 09 Nov 2021 11:40:37 GMT
+Content-Type: text/html
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+]
+2021-11-09 11:40:37,938 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Invoked com.ciphercloud.csg.ns.app.resolv.UserSessionBinderManagerRedisImpl.putCacheKeyForBackupContext()
+2021-11-09 11:40:37,938 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put('4b3cfbf433af4f7d8750e08625f6156b',String) is invoked for map NS_CONTEXT_q2devilCONTEXT_ID2_LOOKUP_J1
+2021-11-09 11:40:37,938 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('4b3cfbf433af4f7d8750e08625f6156b') is invoked for map NS_CONTEXT_q2devilCONTEXT_ID2_LOOKUP_J1
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : Key '4b3cfbf433af4f7d8750e08625f6156b' not found in cache map NS_CONTEXT_q2devilCONTEXT_ID2_LOOKUP_J1
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of null
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : Setting nodeServiceId for cache entry.  existing nodeServiceId=null new nodeServiceId=PROXY_devil_proxy_node
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : Pushed key & value to local cache & redis in async mode
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put() completed
+2021-11-09 11:40:37,939 DEBUG [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] r.UserSessionBinderManagerRedisImpl : Backup Context address 4b3cfbf433af4f7d8750e08625f6156b and CacheKey 2e407457b3c540938c6df72311d79ba5 lookup mappinng is cached
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] .p.p.d.ResponseAppResolverProcessor : Session binding cookie NOT added to client response for host my.syncplicity.com path /, since connector's app resolver does not define session binding cookie name.
+2021-11-09 11:40:37,939 DEBUG [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] .p.p.d.ResponseAppResolverProcessor : Response side APP Info ~ id=192 domain=my.syncplicity.com path=/ isFromSessionBinding=false AppType=custom CAC 
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.CloudAppTransactionParser : Time taken to parse : 0 ms
+2021-11-09 11:40:37,939 DEBUG [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.c.i.p.RegexGroupParser        : REGEX GROUP PATTERN = (?&lt;BINARY&gt;application|binary)/(octet-stream|rtf|x-7z-compressed|.*?zip2?|pdf|msword|java-archive|x-tar|vnd\.(rar|openxml|ms-excel|ms-powerpoint|ms-word|ms-project|visio|oasis.opendocument)).*
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.CloudAppTransactionParser : Cleaning up because [No nodes located to process]
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.CloudAppTransactionParser : Time taken to parse : 0 ms
+2021-11-09 11:40:37,939 DEBUG [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.TransactionLogUtil  : RESPONSE TRANSACTION :- file_download, Url:- https://my.syncplicity.com/, Content-Type : text/html,  Content-Length:- 524 bytes, Referrer : NA
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.n.p.p.d.ResponseBodyDataProcessor : DataHandling is performed for Response of Content-Type - text/html, Url - https://my.syncplicity.com/
+2021-11-09 11:40:37,939 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.CloudAppTransactionParser : Time taken to parse : 0 ms
+2021-11-09 11:40:37,940 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.flow.ProxyProcessor       : proxyprocessor process done. 1 ms
+2021-11-09 11:40:37,940 TRACE [TxId            redisson-netty-8-25 - ] c.c.c.n.a.cache.PersistentCache     : redisCache.fastPutAsync() is successful. result=true (true=added,false=updated)
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true)
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo)
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo object from redis
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo
+2021-11-09 11:40:37,940 TRACE [TxId34172       proxy-processor-worker-7 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.flow.ProxyProcessor       : proxyprocessor process done. 3 ms
+2021-11-09 11:40:37,940 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Possible match transaction response in file_download of activity ResolutionConflictActivityId_7766
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,940 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.csg.ns.parser.XString           : Variable [FILE_NAME] is used w/o definition
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.csg.ns.parser.XString           : Variable [BINARY_FILE] is used w/o definition
+2021-11-09 11:40:37,941 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Activity successful because assertion was valid: #BINARY_FILE
+2021-11-09 11:40:37,941 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Assertions failed in phase com.ciphercloud.xmlns.ckb.config.v2.ActivityStepPhase@d4df9ed of transaction file_download of Activity ResolutionConflictActivityId_7766 transactionVariablesMap=*****
+2021-11-09 11:40:37,941 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Possible match transaction response in file_download of activity ResolutionConflictActivityId_7766
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.csg.ns.parser.XString           : Variable [FILE_NAME] is used w/o definition
+2021-11-09 11:40:37,941 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Activity successful because assertion was valid: #FILE_NAME
+2021-11-09 11:40:37,941 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Assertions failed in phase com.ciphercloud.xmlns.ckb.config.v2.ActivityStepPhase@1d09dc87 of transaction file_download of Activity ResolutionConflictActivityId_7766 transactionVariablesMap=*****
+2021-11-09 11:40:37,941 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Possible match transaction response in file_download of activity ResolutionConflictActivityId_7766
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.csg.ns.parser.XString           : Variable [FILE_NAME] is used w/o definition
+2021-11-09 11:40:37,941 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true)
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine)
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine object from redis
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.ActivityEngine
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.csg.ns.parser.XString           : Variable [BINARY_FILE] is used w/o definition
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Activity successful because assertion was valid: #BINARY_FILE
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityEngine      : Assertions failed in phase com.ciphercloud.xmlns.ckb.config.v2.ActivityStepPhase@5ff0e92c of transaction file_download of Activity ResolutionConflictActivityId_7766 transactionVariablesMap=*****
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityInfo        : contentInfoList -> []
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityInfo        : contentInfoList -> []
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.ActivityInfo        : ciList -> [com.ciphercloud.csg.ns.proxyutil.processors.data.helper.ContentInfo@43a52faa]
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBean(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true)
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Invoked com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionContext.getBeanForSessionKey(com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo,true,405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo)
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : About to retrieve com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo object from redis
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo') is invoked for map NS_CONTEXT_q2devilSESSION_INFO_J1
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of WrappedValue
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.h.UserSessionContext  : Object of com.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo found in redis for sessionKey=405cb8701df446928abf7adbb840531bcom.ciphercloud.csg.ns.proxyutil.processors.data.helper.UserSessionInfo
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : dataFlowType RESPONSE : ActivityComplete false
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : --------- Activity Info START--------------https://my.syncplicity.com/
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Flow Type - RESPONSE
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Transaxn  - file_download
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Session ID - 405cb8701df446928abf7adbb840531b
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : userSessionInfo hashCode = 1748077343
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : User Login hashCode = null
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Proxy User Login = null
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : ActivityInfo(ActivityId=ResolutionConflictActivityId_7766) { 
+ ActivityType=UNDEFINED_ACTIVITY
+ , ActivitySubType=UNDEFINED_SUB_TYPE_ACTIVITY
+ , activityFailed=false
+ , pep=false
+ , asserted=false
+ , [ContextRefMap={FILE_CONTENT=com.ciphercloud.core.io.ByteBufferInputStream@62019fc8},]
+ }
+2021-11-09 11:40:37,942 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : --------- Activity Info END ---------------
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.d.cac.CacProcessor      : Not a download activity. No need to handle content-disposition
+2021-11-09 11:40:37,942 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.rp.sso.SamlRewriter     : No SP Entity Id found in the Application Context
+2021-11-09 11:40:37,943 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.csg.ns.app.CloudAppResolver     : Invoked CloudAppResolver.getTokenExtractor()
+2021-11-09 11:40:37,943 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.rp.sso.SamlRewriter     : No SP Entity Id found in the Application Context
+2021-11-09 11:40:37,943 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.i.HtmlPayloadRewriter     : Rewrote 524 bytes to 524 bytes in 0 ms
+2021-11-09 11:40:37,943 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.NettyServerProvider     : cc client response 
+
+2021-11-09 11:40:37,943 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.p.NettyServerProvider     : DefaultHttpResponse [
+HTTP/1.1 400 Bad Request
+Server: awselb/2.0
+Set-Cookie: ccpContextId_q2devil=2e407457b3c540938c6df72311d79ba5; Max-Age=86400; Expires=Wed, 10 Nov 2021 11:40:37 GMT; Path=/; Domain=qa2blue.flexilis.com; Secure; HTTPOnly
+Set-Cookie: ccpContextId2_q2devil=4b3cfbf433af4f7d8750e08625f6156b; Max-Age=86400; Expires=Wed, 10 Nov 2021 11:40:37 GMT; Path=/; Domain=qa2blue.flexilis.com; Secure
+Date: Tue, 09 Nov 2021 11:40:37 GMT
+Content-Type: text/html
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+]
+2021-11-09 11:40:37,943 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.n.p.f.ResponseBodyCompleteHandler : Response sent to client.
+2021-11-09 11:40:37,943 DEBUG [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.n.p.f.ResponseBodyCompleteHandler : SDP Packet Tracker: / Client<-Gateway
+2021-11-09 11:40:37,943 TRACE [TxId34172  proxy-cac-processor-worker-11 - Y3VzdG9tOnByb3h5-192] c.c.c.n.p.flow.ProxyProcessor       : proxyprocessor process done. 3 ms
+2021-11-09 11:40:37,943 TRACE [TxId34172       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.metrics.TransactionRecord       : Duration in ms 305
+2021-11-09 11:40:37,943 TRACE [TxId34172       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.metrics.TransactionRecord       : 400,2021-11-09 11:40:37.638122,305,2,1,7,287,4,0,8964,https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/,null
+2021-11-09 11:40:37,944 TRACE [TxId34172       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.metrics.TransactionRecord       : Duration in ms 305
+2021-11-09 11:40:37,944 TRACE [TxId34172       epollEventLoopGroup-18-3 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.metrics.TransactionRecord       : 400,2021-11-09 11:40:37.638122,305,2,1,7,287,4,0,8964,https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/,null
+2021-11-09 11:40:38,289 TRACE [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.PortUnificationHandler  : Server Name could not be determined from SSL ClientHello. Using Server Name: qa2blue.flexilis.com default Server Name to load certificates
+2021-11-09 11:40:38,290 TRACE [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.HttpProxyRequestHandler : client request:
+
+2021-11-09 11:40:38,290 TRACE [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.HttpProxyRequestHandler : HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET /favicon.ico HTTP/1.1
+Host: my-syncplicity-com-q2devil.qa2blue.flexilis.com
+X-Real-IP: 157.48.92.231
+X-Forwarded-For: 172.17.0.1
+X-Forwarded-Proto: https
+Connection: close
+sec-ch-ua: "Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: ccpContextId_q2devil=2e407457b3c540938c6df72311d79ba5; ccpContextId2_q2devil=4b3cfbf433af4f7d8750e08625f6156b
+x-performance-user: JayaPratap
+content-length: 0
+2021-11-09 11:40:38,290 TRACE [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.csg.ns.proxy.flow.WebContext    : client private ip - 127.0.0.1
+2021-11-09 11:40:38,291 DEBUG [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.a.ProxyUserAuthenticator  : No Proxy Auth Session - my-syncplicity-com-q2devil.qa2blue.flexilis.com /favicon.ico null 
+2021-11-09 11:40:38,291 DEBUG [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.a.ProxyUserAuthenticator  : Missing proxyUserAuthState: https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/favicon.ico
+2021-11-09 11:40:38,291 TRACE [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.a.ProxyUserAuthenticator  : Redirecting unauthenticated request to https://auth-q2devil.qa2blue.flexilis.com/authcheck: GET: https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/favicon.ico
+2021-11-09 11:40:38,291 TRACE [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.NettyServerProvider     : cc client response 
+
+2021-11-09 11:40:38,291 TRACE [TxId34171       epollEventLoopGroup-18-1 - c2xhY2tlbnRlcnByaXNlOnByb3h5-48] c.c.c.n.p.p.NettyServerProvider     : DefaultHttpResponse [
+HTTP/1.1 302 Found
+Access-Control-Expose-Headers: Set-Cookie
+Access-Control-Allow-Origin: *
+Location: https://auth-q2devil.qa2blue.flexilis.com/authcheck?C1f3C_authId=n_NbDz9trRmessBCb-PQ2-&C1f3C_ru=aHR0cHM6Ly9teS1zeW5jcGxpY2l0eS1jb20tcTJkZXZpbC5xYTJibHVlLmZsZXhpbGlzLmNvbS9mYXZpY29uLmljbw%3D%3D
+
+]
+2021-11-09 11:40:38,629 TRACE [TxId               pool-6-thread-12 - ] c.n.p.f.ContentRangeUploadProcessor : Content Range Forward Request Task invoked
+2021-11-09 11:40:39,173 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.p.p.PortUnificationHandler  : Server Name could not be determined from SSL ClientHello. Using Server Name: qa2blue.flexilis.com default Server Name to load certificates
+2021-11-09 11:40:39,174 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.p.p.HttpProxyRequestHandler : client request:
+
+2021-11-09 11:40:39,175 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.p.p.HttpProxyRequestHandler : HttpObjectAggregator$AggregatedFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: CompositeByteBuf(ridx: 0, widx: 0, cap: 0, components=0))
+GET /authcheck?C1f3C_authId=n_NbDz9trRmessBCb-PQ2-&C1f3C_ru=aHR0cHM6Ly9teS1zeW5jcGxpY2l0eS1jb20tcTJkZXZpbC5xYTJibHVlLmZsZXhpbGlzLmNvbS9mYXZpY29uLmljbw%3D%3D HTTP/1.1
+Host: auth-q2devil.qa2blue.flexilis.com
+X-Real-IP: 157.48.92.231
+X-Forwarded-For: 172.17.0.1
+X-Forwarded-Proto: https
+Connection: close
+sec-ch-ua: "Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://my-syncplicity-com-q2devil.qa2blue.flexilis.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: ccpContextId_q2devil=2e407457b3c540938c6df72311d79ba5; ccpContextId2_q2devil=4b3cfbf433af4f7d8750e08625f6156b
+x-performance-user: JayaPratap
+content-length: 0
+2021-11-09 11:40:39,175 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.csg.ns.proxy.flow.WebContext    : client private ip - 127.0.0.1
+2021-11-09 11:40:39,175 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put('n_NbDz9trRmessBCb-PQ2-',AuthDomainInfo) is invoked for map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,175 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : PersistentCache.getWrappedValue('n_NbDz9trRmessBCb-PQ2-') is invoked for map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,175 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Key 'n_NbDz9trRmessBCb-PQ2-' not found in cache map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,175 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : PersistentCache.get() completed.  About to return value of null
+2021-11-09 11:40:39,176 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Setting nodeServiceId for cache entry.  existing nodeServiceId=null new nodeServiceId=GLOBAL
+2021-11-09 11:40:39,176 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Local Cache remove event invoked.  Key SWqRTgQflVKQdKAkzZiC5- removal triggered from redis cache NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,176 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Local Cache remove event invoked.  Key O88ig7mseLlSgDocpn9Akl removal triggered from redis cache NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,176 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Local Cache remove event invoked.  Key vANkNFZw_v5wQYZv_a0FfV removal triggered from redis cache NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,176 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Local Cache remove event invoked.  Key o87FX5m3rx3qVCTF0glANm removal triggered from redis cache NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,176 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Local Cache remove event invoked.  Key gibnuwMr5ObXZBHUiQm0hv removal triggered from redis cache NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,176 TRACE [TxId            redisson-netty-8-23 - ] c.c.c.n.a.cache.PersistentCache     : Redis map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1 entry O88ig7mseLlSgDocpn9Akl removed now
+2021-11-09 11:40:39,176 TRACE [TxId            redisson-netty-8-25 - ] c.c.c.n.a.cache.PersistentCache     : Redis map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1 entry o87FX5m3rx3qVCTF0glANm removed now
+2021-11-09 11:40:39,176 TRACE [TxId            redisson-netty-8-19 - ] c.c.c.n.a.cache.PersistentCache     : Redis map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1 entry SWqRTgQflVKQdKAkzZiC5- removed now
+2021-11-09 11:40:39,176 TRACE [TxId             redisson-netty-8-3 - ] c.c.c.n.a.cache.PersistentCache     : Redis map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1 entry gibnuwMr5ObXZBHUiQm0hv removed now
+2021-11-09 11:40:39,176 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Local Cache remove event invoked.  Key 4jDq1O8aPzY_x7uMeQWyK6 removal triggered from redis cache NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1
+2021-11-09 11:40:39,177 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : Pushed key & value to local cache & redis in async mode
+2021-11-09 11:40:39,177 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.a.cache.PersistentCache     : PersistentCache.put() completed
+2021-11-09 11:40:39,177 DEBUG [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.p.a.ProxyUserAuthenticator  : caching authId: n_NbDz9trRmessBCb-PQ2- and authDomain: auth-q2devil.qa2blue.flexilis.com
+2021-11-09 11:40:39,177 TRACE [TxId            redisson-netty-8-19 - ] c.c.c.n.a.cache.PersistentCache     : Redis map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1 entry vANkNFZw_v5wQYZv_a0FfV removed now
+2021-11-09 11:40:39,177 TRACE [TxId            redisson-netty-8-23 - ] c.c.c.n.a.cache.PersistentCache     : redisCache.fastPutAsync() is successful. result=true (true=added,false=updated)
+2021-11-09 11:40:39,177 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.p.p.NettyServerProvider     : cc client response 
+
+2021-11-09 11:40:39,178 TRACE [TxId34044       epollEventLoopGroup-18-2 - Z2l0aHViOnByb3h5-193] c.c.c.n.p.p.NettyServerProvider     : DefaultHttpResponse [
+HTTP/1.1 302 Found
+Access-Control-Expose-Headers: Set-Cookie
+Access-Control-Allow-Origin: *
+Location: https://q2devil-idp.qa2blue.flexilis.com:443/ccauth/SSORedirect/metaAlias/q2devil/idp?RelayState=n_NbDz9trRmessBCb-PQ2-&SAMLRequest=jZFRT8IwEMe%2FytL3bm1hDBo2ghojCUYCwwffuu6UJlsLu46gn97pIMEX4mNz%2F7vf3a%2FT2amugiM0aJxNCQ8ZCcBqVxr7kZJt%2FkjHZJZNUdWV2Mt563d2DYcW0Addo0XZV1LSNlY6hQalVTWg9Fpu5s9LKUIm943zTruKBHNEaHyHuncW2xqaDTRHo2G7XqZk5%2F0eZRSpjkIPooSjqcKDEkXVQvhewclUBkPt6ugHGimNJFg8pOQr1iPGRyymBZQjOuRFQsdskFDFmJgMIS4hFl0UsYWFRa%2BsT4lgglPOKZvknMshk4NJyJPkjQSr87Z3xvYWbp1W9CGUT3m%2BoquXTU6C14vNLkDO7uQvvbmWdnuwupgi2f%2B9lMor2tk%2BfU6ja2x2fv79wewb
+
+]
+2021-11-09 11:40:39,178 TRACE [TxId            redisson-netty-8-12 - ] c.c.c.n.a.cache.PersistentCache     : Redis map NS_CONTEXT_q2devilAUTH_DOMAIN_LOOKUP_J1 entry 4jDq1O8aPzY_x7uMeQWyK6 removed now
